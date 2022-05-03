@@ -4,6 +4,8 @@ h1 {
 }
 
 .robots {
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -24,6 +26,8 @@ h1 {
 } 
 
 .eyes {
+	display: flex;
+	flex-direction: row;
 	
 }
 
@@ -56,6 +60,7 @@ h1 {
 .lower_body { 
 	width: 200px; 
 	height: 200px;
+	display: flex;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
 
